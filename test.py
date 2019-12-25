@@ -5,7 +5,7 @@ import lib.j_generator as jg
 
 start_time = time.time()
 model = jg.get_empty_model()
-jg.load_weights_to_model(model, path='models/model_w.hdf5')
+jg.load_weights_to_model(model, path='models/model_1.hdf5')
 jokes = jg.get_jokes(model, init_word='шляпа ', jokes_num=1, joke_len=20)
 print(jokes)
 
