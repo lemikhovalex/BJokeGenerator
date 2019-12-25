@@ -7,6 +7,7 @@ import sys
 sys.path.insert(1, '../')
 import lib.constants as constants
 
+
 def get_confirm_token(response):
     for key, value in response.cookies.items():
         if key.startswith('download_warning'):
@@ -65,7 +66,7 @@ def load_weights_to_model(model, weights_id=None, optimizer=Adam(lr=0.0001), pat
     :return:
     """
     if path is None and weights_id is None:
-        print('Lol, no idea where are weights. Give me id or pass, lol')
+        print('Lol, no idea where are weights. Give me id or path, lol')
         return 1
     if path is None:
         weight_path = 'weights.hdf5'
