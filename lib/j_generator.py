@@ -1,20 +1,11 @@
 import numpy as np
-import os
-import string
-
-import re
-
 import requests
 from keras.models import Sequential
-from keras.layers import Dense, Conv2D, Flatten, MaxPooling2D, Dropout, Reshape, LSTM, TimeDistributed
+from keras.layers import Dense, Dropout, LSTM, TimeDistributed
 from keras.optimizers import Adam
-import constants
-from keras import callbacks
-from keras.utils import to_categorical
-from keras.models import load_model
-import json
-from keras.callbacks import *
-
+import sys
+sys.path.insert(1, '../')
+import lib.constants as constants
 
 def get_confirm_token(response):
     for key, value in response.cookies.items():
