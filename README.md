@@ -29,7 +29,7 @@ python server.py
 8. Install, LogIn/Registate in this service https://ngrok.com. Make intallation in current folder 
 
 9. Run in terminal 
-/ngrok http %local%
+ngrok http %local%
 
 10. From string starting with 'Froward' get an URL to use
 
