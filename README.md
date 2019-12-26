@@ -44,6 +44,7 @@ ngrok http %local%
 10. From string starting with 'Froward' get an URL to use
 
 IMPORTANT You have to use tensorflow version = 1.15 
+
 If you have an error "illegal instruction" use version = 1.15
 
 
