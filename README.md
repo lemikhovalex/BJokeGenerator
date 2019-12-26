@@ -26,7 +26,7 @@ python server.py
 
 7. Find %dunno what is it% (for me it is 'http://127.0.0.1:5000/'). And remember last nuber it as %local%
 
-8. Install, LogIn/Registate in this service https://ngrok.com. Make intallation in current folder 
+8. Install, LogIn/Register in this service https://ngrok.com. Make intallation in current folder 
 
 9. Run in terminal 
 ngrok http %local%
