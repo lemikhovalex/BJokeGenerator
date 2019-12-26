@@ -20,7 +20,7 @@ pip install tensorflow==1.14
 
 pip install time
 
-pip install flask \n
+pip install flask
 
 4. It is time to load trained model with
 
