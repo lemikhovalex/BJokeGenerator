@@ -1,3 +1,29 @@
+# How to start up with server
+
+1. Create vitrual env with the following command:
+
+python3.6 -m venv venv/
+
+2. Then activate it:
+
+source venv/bin/activate
+
+3. Load important packages:
+
+pip install keras==2.2.5 & pip install tensorflow==1.14 & pip install  requests, numpy, time, flask
+
+4. It is time to load trained model with
+
+python load_model1.py
+
+5. Do one test
+
+python test.py
+
+6. Run server
+
+python server.py
+
 # BJokeNN_bf
 Web site generates dumb jokes
 
