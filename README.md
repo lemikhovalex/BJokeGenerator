@@ -10,7 +10,12 @@ source venv/bin/activate
 
 3. Load important packages:
 
-pip install keras==2.2.5 & pip install tensorflow==1.14 & pip install  requests, numpy, time, flask
+pip install requests 
+pip install numpy
+pip install keras==2.2.5 
+pip install tensorflow==1.14 
+pip install time
+pip install flask \n
 
 4. It is time to load trained model with
 
