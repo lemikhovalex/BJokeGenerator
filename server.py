@@ -1,16 +1,16 @@
 from flask import Flask, request, render_template
 import sys
+from tensorflow.python.keras.backend import set_session
+import tensorflow as tf
 sys.path.insert(1, '../')
 import lib.j_generator as jg
-import tensorflow as tf
-from tensorflow.python.keras.backend import set_session
-from tensorflow.python.keras.models import load_model
+import lib.constants as c
 
 sess = tf.Session()
 graph = tf.get_default_graph()
 set_session(sess)
 model = tf.keras.models.load_model(
-    'models/no_w_model_1.h5',
+    c.NO_W_PATH,
     custom_objects=None,
     compile=True)
 

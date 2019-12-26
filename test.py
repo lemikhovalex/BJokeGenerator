@@ -3,10 +3,11 @@ import sys
 sys.path.insert(1, '../')
 import lib.j_generator as jg
 import tensorflow as tf
+import lib.constants as c
 
 start_time = time.time()
 model = tf.keras.models.load_model(
-    'models/no_w_model_1.h5',
+    c.NO_W_PATH,
     custom_objects=None,
     compile=True)
 jokes = jg.get_jokes(model, init_word='шляпа ', jokes_num=1, joke_len=20)

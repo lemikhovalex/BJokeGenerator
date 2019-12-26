@@ -1,8 +1,8 @@
 import numpy as np
 import requests
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, LSTM, TimeDistributed
-from keras.optimizers import Adam
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, LSTM, TimeDistributed
+from tensorflow.keras.optimizers import Adam
 import sys
 sys.path.insert(1, '../')
 import lib.constants as constants
