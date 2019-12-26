@@ -1,0 +1,9 @@
+python3 -m venv venv/
+source venv/bin/activate
+pip install keras==2.2.5
+pip install tensorflow==1.14
+pip install requests
+pip install numpy
+pip install time
+pip install flask
+python load_model.py
