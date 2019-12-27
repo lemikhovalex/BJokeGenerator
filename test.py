@@ -1,9 +1,8 @@
 import time
 import sys
-sys.path.insert(1, '../')
-import lib.j_generator as jg
+import j_generator as jg
 import tensorflow as tf
-import lib.constants as c
+import constants as c
 
 start_time = time.time()
 model = tf.keras.models.load_model(

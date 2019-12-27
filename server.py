@@ -2,9 +2,8 @@ from flask import Flask, request, render_template
 import sys
 from tensorflow.python.keras.backend import set_session
 import tensorflow as tf
-sys.path.insert(1, '../')
-import lib.j_generator as jg
-import lib.constants as c
+import j_generator as jg
+import constants as c
 
 sess = tf.Session()
 graph = tf.get_default_graph()

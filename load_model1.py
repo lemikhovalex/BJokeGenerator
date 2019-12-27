@@ -1,8 +1,7 @@
 import os
 import sys
-sys.path.insert(1, '../')
-import lib.j_generator as jg
-import lib.constants as c
+import j_generator as jg
+import constants as c
 if not os.path.isdir("models"):
     os.mkdir("models")
 
