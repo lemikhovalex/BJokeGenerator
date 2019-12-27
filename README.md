@@ -2,7 +2,7 @@
 
 1. Create vitrual env with the following command:
 
-python3.6 -m venv venv/
+python3 -m venv venv/
 
 2. Then activate it:
 
@@ -19,6 +19,8 @@ pip install keras==2.2.5
 pip install tensorflow==1.14 
 
 pip install time
+
+pip install pyOpenSSL
 
 pip install flask
 
